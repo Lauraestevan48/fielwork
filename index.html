@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Título_12Mdebyfieldwork</title>
+    <link rel="stylesheet"
+    href="https://use.fontawesome.con/releases/v5.11.2/css/all.css"
+    integrity="sha384-KA6Wr/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
+    crossoring="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet">
+        <style type="text/css">
+            :root{
+                --rosa: #EB90A8;
+                --negro: #3C3C3B;
+                --griso: #706F6F;
+                --grism: #E1DEDA;
+                --terra: #EFECE7;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
+            a{
+                text-decoration: none;
+            }
+            body{
+                font-family: 'Open Sans' , sans-serif;
+            }
+            /*NAV*/
+            nav{
+                width: 100%;
+                padding: 50px 40px;
+                display: flex;
+                z-index: 1;
+                background: var(--terra);
+                justify-content: space-between;
+                position: fixed;
+            }
+            nav h1{
+                color: var--(rosa);
+                float: left;
+                border-bottom: 1px solid var(--rosa);
+                }
+            
+
+            .navigation{
+                padding: 5px 0 0 0;
+            }
+            .navigation a{
+                margin: 0 20px 0 0;
+                transition: 0.3s color;
+                color: var(--negro);
+            }
+            .navigation a:hover{
+                color:var(--rosa);
+            }
+            nav a,
+            nav h1{
+                font-size 1em;
+                font-weight: 900;
+            }
+            nav a:last-child img{
+                width: 30px;
+                height: 30px
+            }
+            /*HEADER*/
+            header{
+                height: 300px;
+                padding: 150px 0 0 0;
+                background: var(--terra);
+            }
+            header2{
+                padding: 10px 40px;
+                font-size: 2em;
+                line-height: 1.2em;
+                color:var(--negro);
+            }
+            /*MAIN*/
+            section{
+                position: relative;
+            }
+            .titulo{
+                padding: 150px 40px 0 40px;
+                width: 100%;
+                color: white;
+                position: absolute;
+            }
+            .titulo h3{
+                font-size: 2em;
+                font-weight: 600;
+            }
+            .titulo h4{
+                font-size 2.2em;
+                font-weight: 400;
+            }
+           
+            .content_img{
+                width: 100%;
+                display: flex;
+            }
+            .content_img img{
+                object-fit: cover;
+                object-position: center;
+            }
+            main section:last-child{
+                padding: 80px 0 80px 0 ;
+                display: flex;
+                flex-direction: column;
+            }
+            .question{
+                text-align: center;
+                font-weight: 400;
+                font-size 2.0em;
+                margin: 0 0 2em 0;
+                
+            }
+            .button{
+               flex: 1;
+               align-self:center;
+                font-size: 1.4em;
+                border: 1px solid var(--rosa);
+                padding: 2em;
+                 transition: background 0.4s;
+               
+            }
+            .button:hover{
+                background: pink;
+                border: 1px solid white;
+                font-size: 1.4em;
+                color:white;
+               
+            }
+            /*FOOTER*/
+            footer{
+                display: flex;
+                padding: 30px 40px;
+            }
+            footer div:first-child{
+                /*width: 25%*/
+                flex-shrink: 0.25;
+                flex-grow: 0.25;
+            }
+            footer div:nth-child(2){
+                
+                flex-shrink: 0.5;
+                flex-grow: 0.5;
+                    
+            }
+            
+            footer menu {
+                flex-grow: 0.25;
+                background: pink;
+                display: flex;
+                justify-content: flex-end;
+                
+               
+            }
+            footer menu a{
+                display:flex;
+                align-content: flex-end,
+                
+            }
+            footer a i{
+                float: right;
+            }
+           
+    </style>
+    </head>
+           <body>
+               <nav>
+                   <div class="navegation">
+                       <a href="#">
+                       <h1>Fieldwork</h1>
+                       </a>
+                       <a href="#">About</a>
+                       <a href="#">Services</a>
+                       <a href="#">Work</a>
+                       <a href="#">Blog</a>
+                       <a href="#">Contact</a>
+                   </div>
+                   <div class="logo">
+                   <a href="#"> <img src="img/efe.svg"></a>
+                   </div>
+               </nav>
+               <header>
+                   <h2> Fieldwork is a design and technology studio. We build Brands, digital products and services centred around the people who use them.</h2>
+               </header>
+               <main>
+                   <section>
+                       <div class="titulo">
+                           <h3> Flabed</h3>
+                           <h4> A story telling plataform to create women in literature</h4>
+                           <h5> View the project </h5>
+                       </div>
+                       <div class="content_img">
+                       <img src="img/Illustrated%20house%20used%20as%20inspiration%20in%20the%20Fabled%20digital%20product.png" alt="">
+                       </div>
+                   </section>
+                   <section> 
+                   <div class="titulo">
+                       <h3>Penguin Like a Woman</h3>
+                       <h4> A Campaing to celebrate Women in literature</h4>
+                       <h5> View the project</h5>
+                       </div>
+                       <div class="content_img">
+                       <img
+                       src="img/Penguin%20Like%20a%20Woman.jpeg" alt="">
+                   </div>
+                    </section>
+                    <section>
+                        <div class="titulo">
+                            <h3>Friends of the Eath Nature Kit</h3>
+                            <h4>Encouraging charity donations with a kit for natura conscious people</h4>
+                            <h5>View the project</h5>
+                        </div>
+                           <div class="content_img">
+                        <img src="img/Illustrated%20nature%20scene%20for%20the%20Friends%20of%20the%20Earth%20Nature%20Kit.jpeg" alt="">
+                         </div>
+                    </section>
+                    <section>
+                        <h3 class="question"> Want to talk to us about your brand or digital product?</h3>
+                        <h4 class="button"> Get in touch</h4>
+                   </section>
+                   
+               </main>
+               <footer>
+                  <div>
+                     <h3>Find us</h3>
+                      <p>Fielwork</p>
+                      <p>Colony</p>
+                      <p>Jactin Mouse</p>
+                      <p>24 Mood Street</p>
+                      <p>Ancoat Manchester</p>
+                      <p>M4 gwx</p>
+                  </div>
+                  <div>
+                      <h3>Get in touch</h3>
+                      <p><a href="mailto:hello@madebyfieldwork.com">hello@madebyfielwork.com</a></p>
+                  </div>
+                  <menu>
+                      <a href="#"><i class="fab fa-github"></i></a>
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                  </menu>
+                  <div></div>
+                  <div></div>
+                   
+               </footer>
+              
+    </body>
+</html>
